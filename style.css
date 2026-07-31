@@ -51,13 +51,13 @@ height:42px;
 object-fit:contain;
 }
 .topbar h1{
-font-size:30px;
+font-size:32px;
 font-weight:600;
 letter-spacing:-.8px;
 line-height:1;
 }
 .fecha{
-font-size:18px;
+font-size:15px;
 font-weight:400;
 color:#8e8e93;
 margin-top:3px;
@@ -163,13 +163,6 @@ transform:translateY(0) scale(1);
 filter:blur(0);
 pointer-events:auto;
 }
-.detalle-titulo{
-font-size:20px;
-font-weight:500;
-color:#8e8e93;
-letter-spacing:-.2px;
-margin-bottom:18px;
-}
 .detalle-menu{
 display:flex;
 align-items:flex-start;
@@ -255,7 +248,7 @@ margin-top:8px;
 margin-bottom:14px;
 }
 .section-title{
-font-size:20px;
+font-size:16px;
 font-weight:500;
 color:#8e8e93;
 margin-bottom:4px;
@@ -275,13 +268,13 @@ transform:scale(.98);
 flex:1;
 }
 .empresa-titulo{
-font-size:18px;
+font-size:20px;
 font-weight:500;
 color:#1d1d1f;
 margin-bottom:3px;
 }
 .empresa-info{
-font-size:20px;
+font-size:16px;
 font-weight:400;
 color:#8e8e93;
 line-height:15px;
