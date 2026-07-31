@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
 }
 body{
-font-family:'Nunito','Segoe UI','Helvetica Neue',Arial,sans-serif;
+font-family:'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif;
 font-size:20px;
 background:#eef3f8;
 color:#1d1d1f;
 -webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
 overflow:hidden;
 }
 .wallpaper{
@@ -46,8 +47,8 @@ letter-spacing:-.8px;
 line-height:1;
 }
 .back-button{
-width:40px;
-height:40px;
+width:45px;
+height:45px;
 border:none;
 border-radius:50%;
 background:rgba(255,255,255,.58);
@@ -66,8 +67,8 @@ transform:scale(.95);
 .back-icon{
 width:10px;
 height:10px;
-border-left:3px solid #8e8e93;
-border-bottom:3px solid #8e8e93;
+border-left:3px solid #111111;
+border-bottom:3px solid #111111;
 border-radius:2px;
 transform:rotate(45deg);
 margin-left:4px;
