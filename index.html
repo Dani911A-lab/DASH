@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dash</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wallpaper"></div>
+<div class="app">
+<header class="topbar">
+<div class="titulo">
+<img src="img/dashicon.png" class="logo">
+<div>
+<h1>Dash</h1>
+<div class="fecha">Ultima Actualizacion: Viernes 14 de Julio.</div>
+</div>
+</div>
+</header>
+<section class="glass hero">
+<div class="hero-header">
+<h2 class="hero-title">Grupo Haciendas</h2>
+<h2 class="empresa-header"></h2>
+<div class="back-arrow" onclick="cerrarEmpresa()"></div>
+</div>
+<div class="separator"></div>
+<div class="contenido-principal">
+<div class="graph">
+<div class="line">
+<div style="height:34%"></div>
+<div style="height:58%"></div>
+<div style="height:43%"></div>
+<div style="height:71%"></div>
+<div style="height:62%"></div>
+<div style="height:86%"></div>
+<div style="height:54%"></div>
+</div>
+</div>
+<div class="chart-caption">Rendimiento de los últimos 6 meses</div>
+<div class="section-title">Empresas Activas:</div>
+<div class="separator graph-separator"></div>
+<div class="empresa" onclick="abrirEmpresa('Tecniagrex')">
+<div class="empresa-data">
+<div class="empresa-titulo">Tecniagrex</div>
+<div class="empresa-info">Utilidad (acumulada): $1000</div>
+<div class="empresa-info">Rendimiento: $500 dólares por Hectárea</div>
+</div>
+<div class="empresa-arrow"></div>
+</div>
+<div class="separator"></div>
+<div class="empresa" onclick="abrirEmpresa('Krasnaya')">
+<div class="empresa-data">
+<div class="empresa-titulo">Krasnaya</div>
+<div class="empresa-info">Utilidad (acumulada): $1000</div>
+<div class="empresa-info">Rendimiento: $500 dólares por Hectárea</div>
+</div>
+<div class="empresa-arrow"></div>
+</div>
+</div>
+<div class="detalle-contenido">
+<div class="detalle-titulo"></div>
+<div class="detalle-menu">
+<div class="detalle-item">
+<img src="img/produccionicon.png" class="detalle-icon">
+<div>Produccion</div>
+</div>
+<div class="detalle-item">
+<img src="img/liquidacionesicon.png" class="detalle-icon">
+<div>Liquidaciones</div>
+</div>
+<div class="detalle-item" onclick="abrirFlujo()">
+<img src="img/flujoicon.png" class="detalle-icon">
+<div>Flujo</div>
+</div>
+<div class="detalle-item">
+<img src="img/bancosicon.png" class="detalle-icon">
+<div>Bancos</div>
+</div>
+</div>
+<div class="separator menu-separator"></div>
+<div class="detalle-info">
+<div><span>Producción:</span> racimos, rechazos, cajas, ratios.</div>
+<div><span>Liquidaciones:</span> cajas, precios autorizados, descuentos de liquidación, fruta a cobrar.</div>
+<div><span>Flujo:</span> movimiento de la operación, ingresos, gastos, utilidad productiva.</div>
+<div><span>Bancos:</span> movimientos bancarios, información financiera.</div>
+</div>
+</div>
+</section>
+</div>
+<div class="flujo-page">
+<iframe src="flujo.html"></iframe>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

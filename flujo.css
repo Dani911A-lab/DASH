@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+font-family:'Nunito','Segoe UI','Helvetica Neue',Arial,sans-serif;
+background:#eef3f8;
+color:#1d1d1f;
+-webkit-font-smoothing:antialiased;
+overflow:hidden;
+}
+.wallpaper{
+position:fixed;
+inset:0;
+background:#eef3f8;
+z-index:-1;
+}
+.page{
+width:430px;
+max-width:100%;
+margin:auto;
+padding:24px;
+animation:pageEnter .35s cubic-bezier(.22,1,.36,1);
+}
+@keyframes pageEnter{
+from{
+transform:translateX(100%);
+}
+to{
+transform:translateX(0);
+}
+}
+.topbar{
+display:flex;
+align-items:center;
+gap:12px;
+margin-bottom:22px;
+}
+.topbar h1{
+font-size:30px;
+font-weight:600;
+letter-spacing:-.8px;
+line-height:1;
+}
+.back-button{
+width:40px;
+height:40px;
+border:none;
+border-radius:50%;
+background:rgba(255,255,255,.58);
+backdrop-filter:blur(24px) saturate(180%);
+-webkit-backdrop-filter:blur(24px) saturate(180%);
+box-shadow:0 8px 20px rgba(0,0,0,.08),inset 0 1px 1px rgba(255,255,255,.9);
+display:flex;
+align-items:center;
+justify-content:center;
+cursor:pointer;
+transition:.2s;
+}
+.back-button:active{
+transform:scale(.95);
+}
+.back-icon{
+width:10px;
+height:10px;
+border-left:3px solid #8e8e93;
+border-bottom:3px solid #8e8e93;
+border-radius:2px;
+transform:rotate(45deg);
+margin-left:4px;
+}
+.glass{
+background:rgba(255,255,255,.72);
+backdrop-filter:blur(40px) saturate(180%);
+-webkit-backdrop-filter:blur(40px) saturate(180%);
+border:1px solid rgba(255,255,255,.85);
+box-shadow:0 20px 40px rgba(0,0,0,.06),inset 0 1px 1px rgba(255,255,255,.9);
+}
+.container{
+padding:24px;
+border-radius:32px;
+}
+.container h2{
+font-size:15px;
+font-weight:400;
+letter-spacing:-.2px;
+color:#818185;
+}
+.separator{
+height:1px;
+background:rgba(60,60,67,.08);
+margin:10px 0;
+}
+.haciendas-lista{
+margin-top:4px;
+}
+.hacienda-item{
+display:flex;
+align-items:center;
+padding:5px 0;
+}
+.hacienda-icon{
+width:28px;
+height:28px;
+object-fit:contain;
+flex:none;
+margin-right:12px;
+}
+.hacienda-data{
+flex:1;
+min-width:0;
+}
+.hacienda-nombre{
+font-size:15px;
+font-weight:700;
+color:#1d1d1f;
+letter-spacing:-.2px;
+margin-bottom:1px;
+}
+.hacienda-info{
+font-size:13px;
+font-weight:300;
+color:#8e8e93;
+line-height:15px;
+letter-spacing:-.1px;
+}
+.hacienda-info span{
+font-weight:600;
+color:#6e6e73;
+}
+.hacienda-separator{
+height:1px;
+background:rgba(60,60,67,.08);
+}
+.empresa-arrow{
+width:8px;
+height:8px;
+border-right:2px solid #c7c7cc;
+border-bottom:2px solid #c7c7cc;
+border-radius:2px;
+transform:rotate(-45deg);
+margin-left:14px;
+flex:none;
+transition:.2s;
+}
+.hacienda-item:hover .empresa-arrow{
+transform:rotate(-45deg) translateX(2px);
+}
+.hacienda-item:active{
+opacity:.75;
+}
