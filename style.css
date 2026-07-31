@@ -14,7 +14,7 @@ box-sizing:border-box;
 }
 body{
 font-family:'Nunito','Segoe UI','Helvetica Neue',Arial,sans-serif!important;
-font-size:15px;
+font-size:18px;
 font-weight:400;
 background:var(--bg);
 color:var(--text);
@@ -31,7 +31,7 @@ z-index:-1;
 width:430px;
 max-width:100%;
 margin:auto;
-padding:24px;
+padding:12px;
 transition:.35s cubic-bezier(.22,1,.36,1);
 }
 .app.hide{
@@ -57,7 +57,7 @@ letter-spacing:-.8px;
 line-height:1;
 }
 .fecha{
-font-size:12px;
+font-size:15px;
 font-weight:400;
 color:#8e8e93;
 margin-top:3px;
@@ -275,13 +275,13 @@ transform:scale(.98);
 flex:1;
 }
 .empresa-titulo{
-font-size:15px;
+font-size:18px;
 font-weight:500;
 color:#1d1d1f;
 margin-bottom:3px;
 }
 .empresa-info{
-font-size:12px;
+font-size:15px;
 font-weight:400;
 color:#8e8e93;
 line-height:15px;
