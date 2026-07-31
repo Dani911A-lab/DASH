@@ -13,7 +13,7 @@ padding:0;
 box-sizing:border-box;
 }
 body{
-font-family:'Nunito','Segoe UI','Helvetica Neue',Arial,sans-serif!important;
+font-family:'Inter','Segoe UI','Helvetica Neue',Arial,sans-serif!important;
 font-size:20px;
 font-weight:400;
 background:var(--bg);
@@ -46,8 +46,8 @@ align-items:center;
 gap:12px;
 }
 .logo{
-width:42px;
-height:42px;
+width:55px;
+height:55px;
 object-fit:contain;
 }
 .topbar h1{
@@ -201,7 +201,7 @@ margin-top:20px;
 }
 .detalle-info{
 margin-top:18px;
-font-size:18px;
+font-size:16px;
 font-weight:300;
 line-height:17px;
 letter-spacing:-.2px;
@@ -235,9 +235,32 @@ height:100%;
 }
 .line div{
 width:18px;
-background:linear-gradient(180deg,#d5d5da,#8f8f95);
+background:linear-gradient(
+180deg,
+#8f8f95 0%,
+#bfc0c5 45%,
+#e5e5ea 100%
+);
 border-radius:4px;
 box-shadow:inset 0 1px 1px rgba(255,255,255,.8),0 3px 8px rgba(0,0,0,.08);
+}
+
+.line .barra-baja{
+background:linear-gradient(
+180deg,
+#cc6f00 0%,
+#ff9500 55%,
+#ffc266 100%
+);
+}
+
+.line .barra-alta{
+background:linear-gradient(
+180deg,
+#248a3d 0%,
+#34c759 55%,
+#8eeaa5 100%
+);
 }
 .chart-caption{
 font-size:14px;
