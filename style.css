@@ -14,7 +14,7 @@ box-sizing:border-box;
 }
 body{
 font-family:'Nunito','Segoe UI','Helvetica Neue',Arial,sans-serif!important;
-font-size:18px;
+font-size:20px;
 font-weight:400;
 background:var(--bg);
 color:var(--text);
@@ -57,7 +57,7 @@ letter-spacing:-.8px;
 line-height:1;
 }
 .fecha{
-font-size:15px;
+font-size:20px;
 font-weight:400;
 color:#8e8e93;
 margin-top:3px;
@@ -89,7 +89,7 @@ overflow:hidden;
 position:absolute;
 left:0;
 top:0;
-font-size:17px;
+font-size:20px;
 font-weight:500;
 letter-spacing:-.3px;
 transition:.55s cubic-bezier(.22,1,.36,1);
@@ -164,7 +164,7 @@ filter:blur(0);
 pointer-events:auto;
 }
 .detalle-titulo{
-font-size:13px;
+font-size:20px;
 font-weight:500;
 color:#8e8e93;
 letter-spacing:-.2px;
@@ -183,7 +183,7 @@ display:flex;
 flex-direction:column;
 align-items:center;
 justify-content:center;
-font-size:13px;
+font-size:20px;
 font-weight:500;
 letter-spacing:-.2px;
 color:#6e6e73;
@@ -208,7 +208,7 @@ margin-top:20px;
 }
 .detalle-info{
 margin-top:18px;
-font-size:14px;
+font-size:20px;
 font-weight:300;
 line-height:17px;
 letter-spacing:-.2px;
@@ -247,7 +247,7 @@ border-radius:4px;
 box-shadow:inset 0 1px 1px rgba(255,255,255,.8),0 3px 8px rgba(0,0,0,.08);
 }
 .chart-caption{
-font-size:12px;
+font-size:20px;
 font-weight:400;
 color:#8e8e93;
 text-align:center;
@@ -255,7 +255,7 @@ margin-top:8px;
 margin-bottom:14px;
 }
 .section-title{
-font-size:13px;
+font-size:20px;
 font-weight:500;
 color:#8e8e93;
 margin-bottom:4px;
@@ -281,7 +281,7 @@ color:#1d1d1f;
 margin-bottom:3px;
 }
 .empresa-info{
-font-size:15px;
+font-size:20px;
 font-weight:400;
 color:#8e8e93;
 line-height:15px;
