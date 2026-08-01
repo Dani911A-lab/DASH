@@ -265,7 +265,7 @@ background:linear-gradient(
 );
 }
 .chart-caption{
-font-size:14px;
+font-size:13px;
 font-weight:400;
 color:#8e8e93;
 text-align:center;
@@ -273,7 +273,7 @@ margin-top:8px;
 margin-bottom:14px;
 }
 .section-title{
-font-size:16px;
+font-size:14px;
 font-weight:500;
 color:#8e8e93;
 margin-bottom:4px;
@@ -293,13 +293,13 @@ transform:scale(.98);
 flex:1;
 }
 .empresa-titulo{
-font-size:18px;
+font-size:16px;
 font-weight:500;
 color:#1d1d1f;
 margin-bottom:3px;
 }
 .empresa-info{
-font-size:16px;
+font-size:14px;
 font-weight:400;
 color:#8e8e93;
 line-height:22px;
